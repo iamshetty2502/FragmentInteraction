@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Interview Questions</string>
+    <string-array name="Semester">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+    </string-array>
+    <string-array name="Semester_1">
+        <item>Operating Systems</item>
+        <item>Discrete Mathematics</item>
+        <item>Communication Skills</item>
+        <item>Imperative Programming Practical</item>
+        <item>Internet of Things</item>
+        <item>Advanced Web Programming</item>
+    </string-array>
+    <string-array name="Semester_2">
+        <item>Linux Administration</item>
+        <item>Linux System Administration</item>
+        <item>Object oriented Programming</item>
+        <item>Advanced Web Programming</item>
+        <item>Introduction to Embedded Systems</item>
+        <item>Software Engineering</item>
+    </string-array>
+    <string-array name="Semester_3">
+        <item>Microprocessor Architecture</item>
+        <item>Web Programming</item>
+        <item>Numerical and Statistical Methods</item>
+        <item>Green Computing</item>
+        <item>Python Programming</item>
+        <item>Data Structures</item>
+    </string-array>
+    <string-array name="Semester_4">
+        <item>Computer Networks</item>
+        <item>Database Management Systems</item>
+        <item>Applied Mathematics</item>
+        <item>Core Java</item>
+        <item>Computer Oriented Statistical Techniques</item>
+        <item>Artificial Intelligence</item>
+    </string-array>
+    <string-array name="Semester_5">
+        <item>RDBMS Using Oracle</item>
+        <item>Network Technology and Administration</item>
+        <item>Content Management System Using Joomla</item>
+        <item>Advanced Java Programming</item>
+        <item>MS SQL Server 2005 Database Administration</item>
+        <item>Network Management and Information Security</item>
+    </string-array>
+    <string-array name="Semester_6">
+        <item>Android Technology</item>
+        <item>iOS Technology</item>
+        <item>RoR Technology</item>
+        <item>React </item>
+        <item>Go</item>
+        <item>Oracle Technology</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
