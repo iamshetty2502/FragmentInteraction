@@ -1,4 +1,4 @@
-package com.d2ktask.sujeet.d2ktask;
+package com.iamshetty.fragmentinteraction.d2ktask;
 
 import org.junit.Test;
 

@@ -7,13 +7,13 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
     <fragment
-        android:name="com.d2ktask.sujeet.d2ktask.fragments.SemesterFragment"
+        android:name="com.iamshetty.fragmentinteraction.fragments.SemesterFragment"
         android:id="@+id/semesters"
         android:layout_weight="1"
         android:layout_width="0dp"
         android:layout_height="match_parent" />
     <fragment
-        android:name="com.d2ktask.sujeet.d2ktask.fragments.SubjectFragment"
+        android:name="com.iamshetty.fragmentinteraction.fragments.SubjectFragment"
         android:id="@+id/subjects"
         android:layout_weight="2"
         android:layout_width="0dp"

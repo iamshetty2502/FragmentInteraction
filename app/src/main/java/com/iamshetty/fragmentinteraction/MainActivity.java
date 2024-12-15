@@ -1,15 +1,14 @@
-package com.d2ktask.sujeet.d2ktask;
+package com.iamshetty.fragmentinteraction;
 
 import android.net.Uri;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 
-import com.d2ktask.sujeet.d2ktask.POJO.Semesters;
-import com.d2ktask.sujeet.d2ktask.POJO.Subjects;
-import com.d2ktask.sujeet.d2ktask.fragments.SemesterFragment;
-import com.d2ktask.sujeet.d2ktask.fragments.SubjectFragment;
+import com.iamshetty.fragmentinteraction.POJO.Semesters;
+import com.iamshetty.fragmentinteraction.POJO.Subjects;
+import com.iamshetty.fragmentinteraction.fragments.SemesterFragment;
+import com.iamshetty.fragmentinteraction.fragments.SubjectFragment;
 
 import java.util.ArrayList;
 
@@ -85,8 +84,6 @@ public class MainActivity extends AppCompatActivity implements SemesterFragment.
 
     public int getSubjectList(int i) {
         switch (i) {
-            case 0:
-                return R.array.Semester_1;
             case 1:
                 return R.array.Semester_2;
             case 2:

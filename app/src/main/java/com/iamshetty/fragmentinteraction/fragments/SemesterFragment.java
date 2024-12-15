@@ -1,5 +1,6 @@
-package com.d2ktask.sujeet.d2ktask.fragments;
+package com.iamshetty.fragmentinteraction.fragments;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -7,16 +8,14 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.d2ktask.sujeet.d2ktask.POJO.Semesters;
-import com.d2ktask.sujeet.d2ktask.R;
-import com.d2ktask.sujeet.d2ktask.adapters.SemesterAdapter;
+import com.iamshetty.fragmentinteraction.POJO.Semesters;
+import com.iamshetty.fragmentinteraction.R;
+import com.iamshetty.fragmentinteraction.adapters.SemesterAdapter;
 
 import java.util.ArrayList;
 
@@ -59,8 +58,7 @@ public class SemesterFragment extends Fragment {
 
         semesterLayoutManager = new LinearLayoutManager(getContext());
         semesterRecyclerView.setLayoutManager(semesterLayoutManager);
-        semArraydata=new ArrayList<Semesters>();
-        //String[] sem_data= getResources().getStringArray(R.array.Semester);
+        semArraydata= new ArrayList<>();
 
         semesterAdapter = new SemesterAdapter(semArraydata);
         semesterRecyclerView.setAdapter(semesterAdapter);
@@ -134,18 +132,16 @@ public class SemesterFragment extends Fragment {
         void passDataToMain(int postion);
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     public void setData(ArrayList<Semesters> semesterData){
-        if(semArraydata.size()>0)
+        if(!semArraydata.isEmpty())
         {
             semArraydata.clear();
         }
-        for (Semesters semdata:semesterData
-             ) {
-
-            semArraydata.add(semdata);
-        }
+        semArraydata.addAll(semesterData);
         semesterAdapter.notifyDataSetChanged();
     }
+    @SuppressLint("NotifyDataSetChanged")
     public void setCounter(){
         semesterAdapter.notifyDataSetChanged();
     }

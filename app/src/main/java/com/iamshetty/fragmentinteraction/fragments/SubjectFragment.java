@@ -1,4 +1,4 @@
-package com.d2ktask.sujeet.d2ktask.fragments;
+package com.iamshetty.fragmentinteraction.fragments;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.d2ktask.sujeet.d2ktask.POJO.Subjects;
-import com.d2ktask.sujeet.d2ktask.R;
-import com.d2ktask.sujeet.d2ktask.adapters.SubjectAdapter;
+import com.iamshetty.fragmentinteraction.POJO.Subjects;
+import com.iamshetty.fragmentinteraction.R;
+import com.iamshetty.fragmentinteraction.adapters.SubjectAdapter;
 
 import java.util.ArrayList;
 

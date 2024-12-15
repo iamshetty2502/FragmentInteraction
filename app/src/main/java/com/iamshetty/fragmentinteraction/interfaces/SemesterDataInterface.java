@@ -1,4 +1,4 @@
-package com.d2ktask.sujeet.d2ktask.interfaces;
+package com.iamshetty.fragmentinteraction.interfaces;
 
 public interface SemesterDataInterface {
     void passDataInformation();

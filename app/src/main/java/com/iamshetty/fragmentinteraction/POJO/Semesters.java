@@ -1,6 +1,4 @@
-package com.d2ktask.sujeet.d2ktask.POJO;
-
-import javax.security.auth.Subject;
+package com.iamshetty.fragmentinteraction.POJO;
 
 public class Semesters {
 

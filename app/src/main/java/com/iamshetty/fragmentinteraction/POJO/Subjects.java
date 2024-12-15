@@ -1,4 +1,4 @@
-package com.d2ktask.sujeet.d2ktask.POJO;
+package com.iamshetty.fragmentinteraction.POJO;
 
 public class Subjects {
 

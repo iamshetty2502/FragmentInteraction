@@ -1,16 +1,14 @@
-package com.d2ktask.sujeet.d2ktask.adapters;
+package com.iamshetty.fragmentinteraction.adapters;
 
-import android.nfc.Tag;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.d2ktask.sujeet.d2ktask.POJO.Semesters;
-import com.d2ktask.sujeet.d2ktask.POJO.Subjects;
-import com.d2ktask.sujeet.d2ktask.R;
+import com.iamshetty.fragmentinteraction.POJO.Semesters;
+import com.iamshetty.fragmentinteraction.POJO.Subjects;
+import com.iamshetty.fragmentinteraction.R;
 
 import java.util.ArrayList;
 
@@ -42,8 +40,6 @@ public class SemesterAdapter extends RecyclerView.Adapter<SemesterAdapter.MyView
         // create a new view
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.semester_view, parent, false);
-        TextView sem_name = v.findViewById(R.id.semester_name);
-        TextView sub_count = v.findViewById(R.id.subject_count);
         MyViewHolder vh = new MyViewHolder(v);
         return vh;
     }
